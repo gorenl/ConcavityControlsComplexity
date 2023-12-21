@@ -1,0 +1,9 @@
+F90 = gfortran
+CC = gcc
+FLAGS = -c -O
+CFLAGS = -c -O
+INCLUDE =
+OPTIONS =
+LIBS = \
+-LNN -lnn \
+-LXPLOT -lxplot -L/usr/X11R6/lib -lX11
