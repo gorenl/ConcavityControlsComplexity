@@ -13,5 +13,7 @@ The function CallConcavityComplexityPartial.m contains code lines that run Conca
 
 4. Other matlab functions included in the current branch are service functions used by ConcavityAndComplexityBasedOnPartial.m
 
+5. The function PlotNiceRanges.m plots the drainage network analyzed in each range over the range relief map.
 
-The codes run on Topotoolbox environment 
+
+The codes run on Topotoolbox environment. 
