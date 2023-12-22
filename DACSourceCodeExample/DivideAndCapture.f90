@@ -29,7 +29,6 @@ program DivideAndCapture
 
   call start_timing
   call initialize_parameters (params) ! initializes the model parameters
-  geometry%surface_share=0.d0
   print*, 'going to reinit_geometry',params%read_restart
   if (params%read_restart) then 
      call reinit_geometry(geometry,params,network,delaunay)
