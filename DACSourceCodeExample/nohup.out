@@ -1,0 +1,4211 @@
+ 
+ DAC in CASCADE mode
+ hard code change precipitation
+ Timestepping parameters:
+ delta t =   100.000000000000     
+ endtime =    80000000.0000000     
+ frequency of output =        2001
+      800000  timesteps with          400  outputs
+ 
+ Fluvial erosion parameters: 
+ n =            1
+ m =   0.500000000000000     
+ Hacks law h =    2.00000000000000     
+ Hacks Law ka =   0.666666666666667     
+ K =   1.000000000000000E-006
+ Precip =    1.00000000000000     
+ 
+ Channel head erosion parameters: 
+ Xc =    1600.00000000000     
+ tan theta =   0.383900000000000     
+ Diffusivity =   0.300000000000000     
+ Min erosion rate for diffusional channel head =   1.000000000000000E-005
+ 
+ Uplift Parameters: 
+ Interior Uplift rate =   5.000000000000000E-004
+ Boundary Uplift rate =   5.000000000000000E-004
+ 
+ Adding and Removing Node parameters: 
+ Maximum allowable channel length =    2250.00000000000     
+ Minimum allowable channel head area =    1720000.00000000     
+ Max Divide length =    3000.00000000000     
+ 
+ 
+ 
+ max slope of channel:    20.9434904716503     
+ slope of channel head:    21.0018001730732     
+ max diffusive slope of channel head:    53.1301129719666     
+ Channel Head Area =    1.70666666666667     
+ Remesh minimum area used =    1.72000000000000     
+ going to reinit_geometry F
+  
+ Grid parameters: 
+ nx =           60
+ ny =           30
+ xl =    120000.000000000     
+ yl =    60000.0000000000     
+ zl =    1.00000000000000     
+  
+ time=  0.000000000000000E+000 kyrs
+ num of divides is            0  num of triangles is         3422
+ writing binary file RESTART/GeoFile0000
+ time=   200.100000000000      kyrs
+ num of divides is            0  num of triangles is         5712
+ writing binary file RESTART/GeoFile0001
+ max number of neighbors is:          11
+ time=   400.200000000000      kyrs
+ num of divides is            0  num of triangles is         5958
+ writing binary file RESTART/GeoFile0002
+ max number of neighbors is:          11
+ time=   600.300000000000      kyrs
+ num of divides is            0  num of triangles is         6126
+ writing binary file RESTART/GeoFile0003
+ max number of neighbors is:          11
+ time=   800.400000000000      kyrs
+ num of divides is            0  num of triangles is         6268
+ writing binary file RESTART/GeoFile0004
+ max number of neighbors is:          10
+ time=   1000.50000000000      kyrs
+ num of divides is            0  num of triangles is         6384
+ writing binary file RESTART/GeoFile0005
+ max number of neighbors is:          10
+ time=   1200.60000000000      kyrs
+ num of divides is            0  num of triangles is         6514
+ writing binary file RESTART/GeoFile0006
+ max number of neighbors is:          10
+ time=   1400.70000000000      kyrs
+ num of divides is            0  num of triangles is         6598
+ writing binary file RESTART/GeoFile0007
+ max number of neighbors is:           9
+ time=   1600.80000000000      kyrs
+ num of divides is            0  num of triangles is         6658
+ writing binary file RESTART/GeoFile0008
+ max number of neighbors is:           9
+ time=   1800.90000000000      kyrs
+ num of divides is            0  num of triangles is         6698
+ writing binary file RESTART/GeoFile0009
+ max number of neighbors is:          10
+ time=   2001.00000000000      kyrs
+ num of divides is            0  num of triangles is         6720
+ writing binary file RESTART/GeoFile0010
+ max number of neighbors is:          10
+ time=   2201.10000000000      kyrs
+ num of divides is            0  num of triangles is         6734
+ writing binary file RESTART/GeoFile0011
+ max number of neighbors is:          10
+ time=   2401.20000000000      kyrs
+ num of divides is            0  num of triangles is         6738
+ writing binary file RESTART/GeoFile0012
+ max number of neighbors is:          10
+ time=   2601.30000000000      kyrs
+ num of divides is            0  num of triangles is         6754
+ writing binary file RESTART/GeoFile0013
+ max number of neighbors is:          10
+ time=   2801.40000000000      kyrs
+ num of divides is            0  num of triangles is         6758
+ writing binary file RESTART/GeoFile0014
+ max number of neighbors is:          10
+ time=   3001.50000000000      kyrs
+ num of divides is            0  num of triangles is         6758
+ writing binary file RESTART/GeoFile0015
+ max number of neighbors is:          10
+ time=   3201.60000000000      kyrs
+ num of divides is            0  num of triangles is         6760
+ writing binary file RESTART/GeoFile0016
+ max number of neighbors is:          10
+ time=   3401.70000000000      kyrs
+ num of divides is            0  num of triangles is         6760
+ writing binary file RESTART/GeoFile0017
+ max number of neighbors is:          10
+ time=   3601.80000000000      kyrs
+ num of divides is            0  num of triangles is         6760
+ writing binary file RESTART/GeoFile0018
+ max number of neighbors is:          10
+ time=   3801.90000000000      kyrs
+ num of divides is            0  num of triangles is         6760
+ writing binary file RESTART/GeoFile0019
+ max number of neighbors is:          10
+ time=   4002.00000000000      kyrs
+ num of divides is            0  num of triangles is         6760
+ writing binary file RESTART/GeoFile0020
+ max number of neighbors is:          10
+ time=   4202.10000000000      kyrs
+ num of divides is            0  num of triangles is         6762
+ writing binary file RESTART/GeoFile0021
+ max number of neighbors is:          10
+ time=   4402.20000000000      kyrs
+ num of divides is            0  num of triangles is         6762
+ writing binary file RESTART/GeoFile0022
+ max number of neighbors is:          10
+ time=   4602.30000000000      kyrs
+ num of divides is            0  num of triangles is         6764
+ writing binary file RESTART/GeoFile0023
+ max number of neighbors is:          10
+ time=   4802.40000000000      kyrs
+ num of divides is            0  num of triangles is         6764
+ writing binary file RESTART/GeoFile0024
+ max number of neighbors is:          10
+ time=   5002.50000000000      kyrs
+ num of divides is            0  num of triangles is         6764
+ writing binary file RESTART/GeoFile0025
+ max number of neighbors is:          10
+ time=   5202.60000000000      kyrs
+ num of divides is            0  num of triangles is         6764
+ writing binary file RESTART/GeoFile0026
+ max number of neighbors is:          10
+ time=   5402.70000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0027
+ max number of neighbors is:          10
+ time=   5602.80000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0028
+ max number of neighbors is:          10
+ time=   5802.90000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0029
+ max number of neighbors is:          10
+ time=   6003.00000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0030
+ max number of neighbors is:          10
+ time=   6203.10000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0031
+ max number of neighbors is:          10
+ time=   6403.20000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0032
+ max number of neighbors is:          10
+ time=   6603.30000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0033
+ max number of neighbors is:          10
+ time=   6803.40000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0034
+ max number of neighbors is:          10
+ time=   7003.50000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0035
+ max number of neighbors is:          10
+ time=   7203.60000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0036
+ max number of neighbors is:          10
+ time=   7403.70000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0037
+ max number of neighbors is:          10
+ time=   7603.80000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0038
+ max number of neighbors is:          10
+ time=   7803.90000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0039
+ max number of neighbors is:          10
+ time=   8004.00000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0040
+ max number of neighbors is:          10
+ time=   8204.10000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0041
+ max number of neighbors is:          10
+ time=   8404.20000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0042
+ max number of neighbors is:          10
+ time=   8604.30000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0043
+ max number of neighbors is:          10
+ time=   8804.40000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0044
+ max number of neighbors is:          10
+ time=   9004.50000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0045
+ max number of neighbors is:          10
+ time=   9204.60000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0046
+ max number of neighbors is:          10
+ time=   9404.70000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0047
+ max number of neighbors is:          10
+ time=   9604.80000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0048
+ max number of neighbors is:          10
+ time=   9804.90000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0049
+ max number of neighbors is:          10
+ time=   10005.0000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0050
+ max number of neighbors is:          10
+ time=   10205.1000000000      kyrs
+ num of divides is            0  num of triangles is         6768
+ writing binary file RESTART/GeoFile0051
+ max number of neighbors is:          10
+ time=   10405.2000000000      kyrs
+ num of divides is            0  num of triangles is         6768
+ writing binary file RESTART/GeoFile0052
+ max number of neighbors is:          10
+ time=   10605.3000000000      kyrs
+ num of divides is            0  num of triangles is         6768
+ writing binary file RESTART/GeoFile0053
+ max number of neighbors is:          10
+ time=   10805.4000000000      kyrs
+ num of divides is            0  num of triangles is         6768
+ writing binary file RESTART/GeoFile0054
+ max number of neighbors is:          10
+ time=   11005.5000000000      kyrs
+ num of divides is            0  num of triangles is         6768
+ writing binary file RESTART/GeoFile0055
+ max number of neighbors is:          10
+ time=   11205.6000000000      kyrs
+ num of divides is            0  num of triangles is         6768
+ writing binary file RESTART/GeoFile0056
+ max number of neighbors is:          10
+ time=   11405.7000000000      kyrs
+ num of divides is            0  num of triangles is         6768
+ writing binary file RESTART/GeoFile0057
+ max number of neighbors is:          10
+ time=   11605.8000000000      kyrs
+ num of divides is            0  num of triangles is         6768
+ writing binary file RESTART/GeoFile0058
+ max number of neighbors is:          10
+ time=   11805.9000000000      kyrs
+ num of divides is            0  num of triangles is         6768
+ writing binary file RESTART/GeoFile0059
+ max number of neighbors is:          10
+ time=   12006.0000000000      kyrs
+ num of divides is            0  num of triangles is         6768
+ writing binary file RESTART/GeoFile0060
+ max number of neighbors is:          10
+ time=   12206.1000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0061
+ max number of neighbors is:          10
+ time=   12406.2000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0062
+ max number of neighbors is:          10
+ time=   12606.3000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0063
+ max number of neighbors is:          10
+ time=   12806.4000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0064
+ max number of neighbors is:          10
+ time=   13006.5000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0065
+ max number of neighbors is:          10
+ time=   13206.6000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0066
+ max number of neighbors is:          10
+ time=   13406.7000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0067
+ max number of neighbors is:          10
+ time=   13606.8000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0068
+ max number of neighbors is:          10
+ time=   13806.9000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0069
+ max number of neighbors is:          10
+ time=   14007.0000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0070
+ max number of neighbors is:          10
+ time=   14207.1000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0071
+ max number of neighbors is:          10
+ time=   14407.2000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0072
+ max number of neighbors is:          10
+ time=   14607.3000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0073
+ max number of neighbors is:          10
+ time=   14807.4000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0074
+ max number of neighbors is:          10
+ time=   15007.5000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0075
+ max number of neighbors is:          10
+ time=   15207.6000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0076
+ max number of neighbors is:          10
+ time=   15407.7000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0077
+ max number of neighbors is:          10
+ time=   15607.8000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0078
+ max number of neighbors is:          10
+ time=   15807.9000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0079
+ max number of neighbors is:          10
+ time=   16008.0000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0080
+ max number of neighbors is:          10
+ time=   16208.1000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0081
+ max number of neighbors is:          10
+ time=   16408.2000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0082
+ max number of neighbors is:          10
+ time=   16608.3000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0083
+ max number of neighbors is:          10
+ time=   16808.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0084
+ max number of neighbors is:          10
+ time=   17008.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0085
+ max number of neighbors is:          10
+ time=   17208.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0086
+ max number of neighbors is:          10
+ time=   17408.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0087
+ max number of neighbors is:          10
+ time=   17608.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0088
+ max number of neighbors is:          10
+ time=   17808.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0089
+ max number of neighbors is:          10
+ time=   18009.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0090
+ max number of neighbors is:          10
+ time=   18209.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0091
+ max number of neighbors is:          10
+ time=   18409.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0092
+ max number of neighbors is:          10
+ time=   18609.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0093
+ max number of neighbors is:          10
+ time=   18809.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0094
+ max number of neighbors is:          10
+ time=   19009.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0095
+ max number of neighbors is:          10
+ time=   19209.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0096
+ max number of neighbors is:          10
+ time=   19409.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0097
+ max number of neighbors is:          10
+ time=   19609.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0098
+ max number of neighbors is:          10
+ time=   19809.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0099
+ max number of neighbors is:          10
+ time=   20010.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0100
+ max number of neighbors is:          10
+ time=   20210.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0101
+ max number of neighbors is:          10
+ time=   20410.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0102
+ max number of neighbors is:          10
+ time=   20610.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0103
+ max number of neighbors is:          10
+ time=   20810.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0104
+ max number of neighbors is:          10
+ time=   21010.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0105
+ max number of neighbors is:          10
+ time=   21210.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0106
+ max number of neighbors is:          10
+ time=   21410.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0107
+ max number of neighbors is:          10
+ time=   21610.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0108
+ max number of neighbors is:          10
+ time=   21810.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0109
+ max number of neighbors is:          10
+ time=   22011.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0110
+ max number of neighbors is:          10
+ time=   22211.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0111
+ max number of neighbors is:          10
+ time=   22411.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0112
+ max number of neighbors is:          10
+ time=   22611.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0113
+ max number of neighbors is:          10
+ time=   22811.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0114
+ max number of neighbors is:          10
+ time=   23011.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0115
+ max number of neighbors is:          10
+ time=   23211.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0116
+ max number of neighbors is:          10
+ time=   23411.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0117
+ max number of neighbors is:          10
+ time=   23611.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0118
+ max number of neighbors is:          10
+ time=   23811.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0119
+ max number of neighbors is:          10
+ time=   24012.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0120
+ max number of neighbors is:          10
+ time=   24212.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0121
+ max number of neighbors is:          10
+ time=   24412.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0122
+ max number of neighbors is:          10
+ time=   24612.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0123
+ max number of neighbors is:          10
+ time=   24812.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0124
+ max number of neighbors is:          10
+ time=   25012.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0125
+ max number of neighbors is:          10
+ time=   25212.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0126
+ max number of neighbors is:          10
+ time=   25412.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0127
+ max number of neighbors is:          10
+ time=   25612.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0128
+ max number of neighbors is:          10
+ time=   25812.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0129
+ max number of neighbors is:          10
+ time=   26013.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0130
+ max number of neighbors is:          10
+ time=   26213.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0131
+ max number of neighbors is:          10
+ time=   26413.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0132
+ max number of neighbors is:          10
+ time=   26613.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0133
+ max number of neighbors is:          10
+ time=   26813.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0134
+ max number of neighbors is:          10
+ time=   27013.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0135
+ max number of neighbors is:          10
+ time=   27213.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0136
+ max number of neighbors is:          10
+ time=   27413.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0137
+ max number of neighbors is:          10
+ time=   27613.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0138
+ max number of neighbors is:          10
+ time=   27813.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0139
+ max number of neighbors is:          10
+ time=   28014.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0140
+ max number of neighbors is:          10
+ time=   28214.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0141
+ max number of neighbors is:          10
+ time=   28414.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0142
+ max number of neighbors is:          10
+ time=   28614.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0143
+ max number of neighbors is:          10
+ time=   28814.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0144
+ max number of neighbors is:          10
+ time=   29014.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0145
+ max number of neighbors is:          10
+ time=   29214.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0146
+ max number of neighbors is:          10
+ time=   29414.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0147
+ max number of neighbors is:          10
+ time=   29614.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0148
+ max number of neighbors is:          10
+ time=   29814.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0149
+ max number of neighbors is:          10
+ time=   30015.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0150
+ max number of neighbors is:          10
+ time=   30215.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0151
+ max number of neighbors is:          10
+ time=   30415.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0152
+ max number of neighbors is:          10
+ time=   30615.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0153
+ max number of neighbors is:          10
+ time=   30815.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0154
+ max number of neighbors is:          10
+ time=   31015.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0155
+ max number of neighbors is:          10
+ time=   31215.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0156
+ max number of neighbors is:          10
+ time=   31415.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0157
+ max number of neighbors is:          10
+ time=   31615.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0158
+ max number of neighbors is:          10
+ time=   31815.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0159
+ max number of neighbors is:          10
+ time=   32016.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0160
+ max number of neighbors is:          10
+ time=   32216.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0161
+ max number of neighbors is:          10
+ time=   32416.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0162
+ max number of neighbors is:          10
+ time=   32616.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0163
+ max number of neighbors is:          10
+ time=   32816.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0164
+ max number of neighbors is:          10
+ time=   33016.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0165
+ max number of neighbors is:          10
+ time=   33216.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0166
+ max number of neighbors is:          10
+ time=   33416.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0167
+ max number of neighbors is:          10
+ time=   33616.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0168
+ max number of neighbors is:          10
+ time=   33816.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0169
+ max number of neighbors is:          10
+ time=   34017.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0170
+ max number of neighbors is:          10
+ time=   34217.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0171
+ max number of neighbors is:          10
+ time=   34417.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0172
+ max number of neighbors is:          10
+ time=   34617.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0173
+ max number of neighbors is:          10
+ time=   34817.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0174
+ max number of neighbors is:          10
+ time=   35017.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0175
+ max number of neighbors is:          10
+ time=   35217.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0176
+ max number of neighbors is:          10
+ time=   35417.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0177
+ max number of neighbors is:          10
+ time=   35617.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0178
+ max number of neighbors is:          10
+ time=   35817.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0179
+ max number of neighbors is:          10
+ time=   36018.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0180
+ max number of neighbors is:          10
+ time=   36218.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0181
+ max number of neighbors is:          10
+ time=   36418.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0182
+ max number of neighbors is:          10
+ time=   36618.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0183
+ max number of neighbors is:          10
+ time=   36818.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0184
+ max number of neighbors is:          10
+ time=   37018.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0185
+ max number of neighbors is:          10
+ time=   37218.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0186
+ max number of neighbors is:          10
+ time=   37418.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0187
+ max number of neighbors is:          10
+ time=   37618.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0188
+ max number of neighbors is:          10
+ time=   37818.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0189
+ max number of neighbors is:          10
+ time=   38019.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0190
+ max number of neighbors is:          10
+ time=   38219.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0191
+ max number of neighbors is:          10
+ time=   38419.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0192
+ max number of neighbors is:          10
+ time=   38619.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0193
+ max number of neighbors is:          10
+ time=   38819.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0194
+ max number of neighbors is:          10
+ time=   39019.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0195
+ max number of neighbors is:          10
+ time=   39219.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0196
+ max number of neighbors is:          10
+ time=   39419.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0197
+ max number of neighbors is:          10
+ time=   39619.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0198
+ max number of neighbors is:          10
+ time=   39819.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0199
+ max number of neighbors is:          10
+ time=   40020.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0200
+ max number of neighbors is:          10
+ time=   40220.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0201
+ max number of neighbors is:          10
+ time=   40420.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0202
+ max number of neighbors is:          10
+ time=   40620.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0203
+ max number of neighbors is:          10
+ time=   40820.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0204
+ max number of neighbors is:          10
+ time=   41020.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0205
+ max number of neighbors is:          10
+ time=   41220.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0206
+ max number of neighbors is:          10
+ time=   41420.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0207
+ max number of neighbors is:          10
+ time=   41620.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0208
+ max number of neighbors is:          10
+ time=   41820.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0209
+ max number of neighbors is:          10
+ time=   42021.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0210
+ max number of neighbors is:          10
+ time=   42221.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0211
+ max number of neighbors is:          10
+ time=   42421.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0212
+ max number of neighbors is:          10
+ time=   42621.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0213
+ max number of neighbors is:          10
+ time=   42821.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0214
+ max number of neighbors is:          10
+ time=   43021.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0215
+ max number of neighbors is:          10
+ time=   43221.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0216
+ max number of neighbors is:          10
+ time=   43421.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0217
+ max number of neighbors is:          10
+ time=   43621.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0218
+ max number of neighbors is:          10
+ time=   43821.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0219
+ max number of neighbors is:          10
+ time=   44022.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0220
+ max number of neighbors is:          10
+ time=   44222.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0221
+ max number of neighbors is:          10
+ time=   44422.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0222
+ max number of neighbors is:          10
+ time=   44622.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0223
+ max number of neighbors is:          10
+ time=   44822.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0224
+ max number of neighbors is:          10
+ time=   45022.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0225
+ max number of neighbors is:          10
+ time=   45222.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0226
+ max number of neighbors is:          10
+ time=   45422.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0227
+ max number of neighbors is:          10
+ time=   45622.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0228
+ max number of neighbors is:          10
+ time=   45822.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0229
+ max number of neighbors is:          10
+ time=   46023.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0230
+ max number of neighbors is:          10
+ time=   46223.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0231
+ max number of neighbors is:          10
+ time=   46423.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0232
+ max number of neighbors is:          10
+ time=   46623.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0233
+ max number of neighbors is:          10
+ time=   46823.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0234
+ max number of neighbors is:          10
+ time=   47023.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0235
+ max number of neighbors is:          10
+ time=   47223.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0236
+ max number of neighbors is:          10
+ time=   47423.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0237
+ max number of neighbors is:          10
+ time=   47623.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0238
+ max number of neighbors is:          10
+ time=   47823.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0239
+ max number of neighbors is:          10
+ time=   48024.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0240
+ max number of neighbors is:          10
+ time=   48224.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0241
+ max number of neighbors is:          10
+ time=   48424.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0242
+ max number of neighbors is:          10
+ time=   48624.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0243
+ max number of neighbors is:          10
+ time=   48824.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0244
+ max number of neighbors is:          10
+ time=   49024.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0245
+ max number of neighbors is:          10
+ time=   49224.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0246
+ max number of neighbors is:          10
+ time=   49424.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0247
+ max number of neighbors is:          10
+ time=   49624.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0248
+ max number of neighbors is:          10
+ time=   49824.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0249
+ max number of neighbors is:          10
+ time=   50025.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0250
+ max number of neighbors is:          10
+ time=   50225.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0251
+ max number of neighbors is:          10
+ time=   50425.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0252
+ max number of neighbors is:          10
+ time=   50625.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0253
+ max number of neighbors is:          10
+ time=   50825.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0254
+ max number of neighbors is:          10
+ time=   51025.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0255
+ max number of neighbors is:          10
+ time=   51225.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0256
+ max number of neighbors is:          10
+ time=   51425.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0257
+ max number of neighbors is:          10
+ time=   51625.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0258
+ max number of neighbors is:          10
+ time=   51825.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0259
+ max number of neighbors is:          10
+ time=   52026.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0260
+ max number of neighbors is:          10
+ time=   52226.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0261
+ max number of neighbors is:          10
+ time=   52426.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0262
+ max number of neighbors is:          10
+ time=   52626.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0263
+ max number of neighbors is:          10
+ time=   52826.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0264
+ max number of neighbors is:          10
+ time=   53026.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0265
+ max number of neighbors is:          10
+ time=   53226.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0266
+ max number of neighbors is:          10
+ time=   53426.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0267
+ max number of neighbors is:          10
+ time=   53626.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0268
+ max number of neighbors is:          10
+ time=   53826.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0269
+ max number of neighbors is:          10
+ time=   54027.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0270
+ max number of neighbors is:          10
+ time=   54227.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0271
+ max number of neighbors is:          10
+ time=   54427.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0272
+ max number of neighbors is:          10
+ time=   54627.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0273
+ max number of neighbors is:          10
+ time=   54827.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0274
+ max number of neighbors is:          10
+ time=   55027.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0275
+ max number of neighbors is:          10
+ time=   55227.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0276
+ max number of neighbors is:          10
+ time=   55427.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0277
+ max number of neighbors is:          10
+ time=   55627.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0278
+ max number of neighbors is:          10
+ time=   55827.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0279
+ max number of neighbors is:          10
+ time=   56028.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0280
+ max number of neighbors is:          10
+ time=   56228.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0281
+ max number of neighbors is:          10
+ time=   56428.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0282
+ max number of neighbors is:          10
+ time=   56628.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0283
+ max number of neighbors is:          10
+ time=   56828.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0284
+ max number of neighbors is:          10
+ time=   57028.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0285
+ max number of neighbors is:          10
+ time=   57228.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0286
+ max number of neighbors is:          10
+ time=   57428.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0287
+ max number of neighbors is:          10
+ time=   57628.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0288
+ max number of neighbors is:          10
+ time=   57828.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0289
+ max number of neighbors is:          10
+ time=   58029.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0290
+ max number of neighbors is:          10
+ time=   58229.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0291
+ max number of neighbors is:          10
+ time=   58429.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0292
+ max number of neighbors is:          10
+ time=   58629.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0293
+ max number of neighbors is:          10
+ time=   58829.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0294
+ max number of neighbors is:          10
+ time=   59029.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0295
+ max number of neighbors is:          10
+ time=   59229.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0296
+ max number of neighbors is:          10
+ time=   59429.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0297
+ max number of neighbors is:          10
+ time=   59629.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0298
+ max number of neighbors is:          10
+ time=   59829.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0299
+ max number of neighbors is:          10
+ time=   60030.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0300
+ max number of neighbors is:          10
+ time=   60230.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0301
+ max number of neighbors is:          10
+ time=   60430.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0302
+ max number of neighbors is:          10
+ time=   60630.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0303
+ max number of neighbors is:          10
+ time=   60830.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0304
+ max number of neighbors is:          10
+ time=   61030.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0305
+ max number of neighbors is:          10
+ time=   61230.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0306
+ max number of neighbors is:          10
+ time=   61430.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0307
+ max number of neighbors is:          10
+ time=   61630.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0308
+ max number of neighbors is:          10
+ time=   61830.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0309
+ max number of neighbors is:          10
+ time=   62031.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0310
+ max number of neighbors is:          10
+ time=   62231.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0311
+ max number of neighbors is:          10
+ time=   62431.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0312
+ max number of neighbors is:          10
+ time=   62631.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0313
+ max number of neighbors is:          10
+ time=   62831.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0314
+ max number of neighbors is:          10
+ time=   63031.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0315
+ max number of neighbors is:          10
+ time=   63231.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0316
+ max number of neighbors is:          10
+ time=   63431.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0317
+ max number of neighbors is:          10
+ time=   63631.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0318
+ max number of neighbors is:          10
+ time=   63831.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0319
+ max number of neighbors is:          10
+ time=   64032.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0320
+ max number of neighbors is:          10
+ time=   64232.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0321
+ max number of neighbors is:          10
+ time=   64432.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0322
+ max number of neighbors is:          10
+ time=   64632.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0323
+ max number of neighbors is:          10
+ time=   64832.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0324
+ max number of neighbors is:          10
+ time=   65032.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0325
+ max number of neighbors is:          10
+ time=   65232.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0326
+ max number of neighbors is:          10
+ time=   65432.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0327
+ max number of neighbors is:          10
+ time=   65632.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0328
+ max number of neighbors is:          10
+ time=   65832.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0329
+ max number of neighbors is:          10
+ time=   66033.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0330
+ max number of neighbors is:          10
+ time=   66233.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0331
+ max number of neighbors is:          10
+ time=   66433.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0332
+ max number of neighbors is:          10
+ time=   66633.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0333
+ max number of neighbors is:          10
+ time=   66833.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0334
+ max number of neighbors is:          10
+ time=   67033.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0335
+ max number of neighbors is:          10
+ time=   67233.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0336
+ max number of neighbors is:          10
+ time=   67433.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0337
+ max number of neighbors is:          10
+ time=   67633.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0338
+ max number of neighbors is:          10
+ time=   67833.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0339
+ max number of neighbors is:          10
+ time=   68034.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0340
+ max number of neighbors is:          10
+ time=   68234.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0341
+ max number of neighbors is:          10
+ time=   68434.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0342
+ max number of neighbors is:          10
+ time=   68634.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0343
+ max number of neighbors is:          10
+ time=   68834.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0344
+ max number of neighbors is:          10
+ time=   69034.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0345
+ max number of neighbors is:          10
+ time=   69234.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0346
+ max number of neighbors is:          10
+ time=   69434.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0347
+ max number of neighbors is:          10
+ time=   69634.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0348
+ max number of neighbors is:          10
+ time=   69834.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0349
+ max number of neighbors is:          10
+ time=   70035.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0350
+ max number of neighbors is:          10
+ time=   70235.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0351
+ max number of neighbors is:          10
+ time=   70435.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0352
+ max number of neighbors is:          10
+ time=   70635.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0353
+ max number of neighbors is:          10
+ time=   70835.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0354
+ max number of neighbors is:          10
+ time=   71035.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0355
+ max number of neighbors is:          10
+ time=   71235.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0356
+ max number of neighbors is:          10
+ time=   71435.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0357
+ max number of neighbors is:          10
+ time=   71635.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0358
+ max number of neighbors is:          10
+ time=   71835.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0359
+ max number of neighbors is:          10
+ time=   72036.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0360
+ max number of neighbors is:          10
+ time=   72236.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0361
+ max number of neighbors is:          10
+ time=   72436.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0362
+ max number of neighbors is:          10
+ time=   72636.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0363
+ max number of neighbors is:          10
+ time=   72836.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0364
+ max number of neighbors is:          10
+ time=   73036.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0365
+ max number of neighbors is:          10
+ time=   73236.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0366
+ max number of neighbors is:          10
+ time=   73436.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0367
+ max number of neighbors is:          10
+ time=   73636.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0368
+ max number of neighbors is:          10
+ time=   73836.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0369
+ max number of neighbors is:          10
+ time=   74037.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0370
+ max number of neighbors is:          10
+ time=   74237.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0371
+ max number of neighbors is:          10
+ time=   74437.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0372
+ max number of neighbors is:          10
+ time=   74637.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0373
+ max number of neighbors is:          10
+ time=   74837.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0374
+ max number of neighbors is:          10
+ time=   75037.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0375
+ max number of neighbors is:          10
+ time=   75237.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0376
+ max number of neighbors is:          10
+ time=   75437.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0377
+ max number of neighbors is:          10
+ time=   75637.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0378
+ max number of neighbors is:          10
+ time=   75837.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0379
+ max number of neighbors is:          10
+ time=   76038.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0380
+ max number of neighbors is:          10
+ time=   76238.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0381
+ max number of neighbors is:          10
+ time=   76438.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0382
+ max number of neighbors is:          10
+ time=   76638.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0383
+ max number of neighbors is:          10
+ time=   76838.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0384
+ max number of neighbors is:          10
+ time=   77038.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0385
+ max number of neighbors is:          10
+ time=   77238.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0386
+ max number of neighbors is:          10
+ time=   77438.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0387
+ max number of neighbors is:          10
+ time=   77638.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0388
+ max number of neighbors is:          10
+ time=   77838.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0389
+ max number of neighbors is:          10
+ time=   78039.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0390
+ max number of neighbors is:          10
+ time=   78239.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0391
+ max number of neighbors is:          10
+ time=   78439.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0392
+ max number of neighbors is:          10
+ time=   78639.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0393
+ max number of neighbors is:          10
+ time=   78839.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0394
+ max number of neighbors is:          10
+ time=   79039.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0395
+ max number of neighbors is:          10
+ time=   79239.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0396
+ max number of neighbors is:          10
+ time=   79439.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0397
+ max number of neighbors is:          10
+ time=   79639.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0398
+ max number of neighbors is:          10
+ time=   79839.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0399
+ max number of neighbors is:          10
+ time=   80000.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0400
+      800000 Steps
+ -----------------------------------------------
+ TIMER INFORMATION
+ -----------------------------------------------
+initialize_parameters            0.0003509996sec
+initialize_geometry              0.0016799998sec
+calculate_delaunay            4068.2016601562sec
+create_network                2740.4047851562sec
+find_precipitation              20.4180145264sec
+find_order                     226.5648956299sec
+find_strahler                    0.0403164998sec
+output_geometry                118.6862487793sec
+uplift_and_advect               66.0256652832sec
+add_remove_nodes               657.0352783203sec
+find_surface                  7075.0058593750sec
+find_catchment                  21.2168884277sec
+find_discharge                 152.0808105469sec
+erode                          331.3345336914sec
+find_hack                        0.0205078125sec
+ -----------------------------------------------
+ Total time:   15633.16    
+ 
+ DAC in CASCADE mode
+ hard code change precipitation
+ Timestepping parameters:
+ delta t =   100.000000000000     
+ endtime =    80000000.0000000     
+ frequency of output =        4001
+      800000  timesteps with          200  outputs
+ 
+ Fluvial erosion parameters: 
+ n =            1
+ m =   0.500000000000000     
+ Hacks law h =    2.00000000000000     
+ Hacks Law ka =   0.666666666666667     
+ K =   1.000000000000000E-006
+ Precip =    1.00000000000000     
+ 
+ Channel head erosion parameters: 
+ Xc =    1600.00000000000     
+ tan theta =   0.383900000000000     
+ Diffusivity =   0.300000000000000     
+ Min erosion rate for diffusional channel head =   1.000000000000000E-005
+ 
+ Uplift Parameters: 
+ Interior Uplift rate =   5.000000000000000E-004
+ Boundary Uplift rate =   5.000000000000000E-004
+ 
+ Adding and Removing Node parameters: 
+ Maximum allowable channel length =    2250.00000000000     
+ Minimum allowable channel head area =    1720000.00000000     
+ Max Divide length =    3000.00000000000     
+ 
+ 
+ 
+ max slope of channel:    20.9434904716503     
+ slope of channel head:    21.0018001730732     
+ max diffusive slope of channel head:    53.1301129719666     
+ Channel Head Area =    1.70666666666667     
+ Remesh minimum area used =    1.72000000000000     
+ going to reinit_geometry T
+ reading restart file RESTART/GeoFile0400
+ endtime =    160000000.000000     
+ time=   80000.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0400
+ time=   80020.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0401
+ max number of neighbors is:          10
+ time=   80420.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0402
+ max number of neighbors is:          10
+ time=   80820.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0403
+ max number of neighbors is:          10
+ time=   81220.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0404
+ max number of neighbors is:          10
+ time=   81620.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0405
+ max number of neighbors is:          10
+ time=   82020.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0406
+ max number of neighbors is:          10
+ time=   82420.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0407
+ max number of neighbors is:          10
+ time=   82820.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0408
+ max number of neighbors is:          10
+ time=   83220.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0409
+ max number of neighbors is:          10
+ time=   83620.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0410
+ max number of neighbors is:          10
+ time=   84021.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0411
+ max number of neighbors is:          10
+ time=   84421.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0412
+ max number of neighbors is:          10
+ time=   84821.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0413
+ max number of neighbors is:          10
+ time=   85221.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0414
+ max number of neighbors is:          10
+ time=   85621.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0415
+ max number of neighbors is:          10
+ time=   86021.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0416
+ max number of neighbors is:          10
+ time=   86421.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0417
+ max number of neighbors is:          10
+ time=   86821.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0418
+ max number of neighbors is:          10
+ time=   87221.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0419
+ max number of neighbors is:          10
+ time=   87621.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0420
+ max number of neighbors is:          10
+ time=   88022.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0421
+ max number of neighbors is:          10
+ time=   88422.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0422
+ max number of neighbors is:          10
+ time=   88822.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0423
+ max number of neighbors is:          10
+ time=   89222.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0424
+ max number of neighbors is:          10
+ time=   89622.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0425
+ max number of neighbors is:          10
+ time=   90022.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0426
+ max number of neighbors is:          10
+ time=   90422.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0427
+ max number of neighbors is:          10
+ time=   90822.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0428
+ max number of neighbors is:          10
+ time=   91222.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0429
+ max number of neighbors is:          10
+ time=   91622.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0430
+ max number of neighbors is:          10
+ time=   92023.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0431
+ max number of neighbors is:          10
+ time=   92423.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0432
+ max number of neighbors is:          10
+ time=   92823.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0433
+ max number of neighbors is:          10
+ time=   93223.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0434
+ max number of neighbors is:          10
+ time=   93623.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0435
+ max number of neighbors is:          10
+ time=   94023.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0436
+ max number of neighbors is:          10
+ time=   94423.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0437
+ max number of neighbors is:          10
+ time=   94823.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0438
+ max number of neighbors is:          10
+ time=   95223.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0439
+ max number of neighbors is:          10
+ time=   95623.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0440
+ max number of neighbors is:          10
+ time=   96024.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0441
+ max number of neighbors is:          10
+ time=   96424.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0442
+ max number of neighbors is:          10
+ time=   96824.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0443
+ max number of neighbors is:          10
+ time=   97224.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0444
+ max number of neighbors is:          10
+ time=   97624.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0445
+ max number of neighbors is:          10
+ time=   98024.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0446
+ max number of neighbors is:          10
+ time=   98424.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0447
+ max number of neighbors is:          10
+ time=   98824.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0448
+ max number of neighbors is:          10
+ time=   99224.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0449
+ max number of neighbors is:          10
+ time=   99624.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0450
+ max number of neighbors is:          10
+ time=   100025.000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0451
+ max number of neighbors is:          10
+ time=   100425.100000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0452
+ max number of neighbors is:          10
+ time=   100825.200000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0453
+ max number of neighbors is:          10
+ time=   101225.300000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0454
+ max number of neighbors is:          10
+ time=   101625.400000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0455
+ max number of neighbors is:          10
+ time=   102025.500000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0456
+ max number of neighbors is:          10
+ time=   102425.600000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0457
+ max number of neighbors is:          10
+ time=   102825.700000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0458
+ max number of neighbors is:          10
+ time=   103225.800000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0459
+ max number of neighbors is:          10
+ time=   103625.900000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0460
+ max number of neighbors is:          10
+ time=   104026.000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0461
+ max number of neighbors is:          10
+ time=   104426.100000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0462
+ max number of neighbors is:          10
+ time=   104826.200000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0463
+ max number of neighbors is:          10
+ time=   105226.300000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0464
+ max number of neighbors is:          10
+ time=   105626.400000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0465
+ max number of neighbors is:          10
+ time=   106026.500000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0466
+ max number of neighbors is:          10
+ time=   106426.600000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0467
+ max number of neighbors is:          10
+ time=   106826.700000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0468
+ max number of neighbors is:          10
+ time=   107226.800000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0469
+ max number of neighbors is:          10
+ time=   107626.900000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0470
+ max number of neighbors is:          10
+ time=   108027.000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0471
+ max number of neighbors is:          10
+ time=   108427.100000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0472
+ max number of neighbors is:          10
+ time=   108827.200000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0473
+ max number of neighbors is:          10
+ time=   109227.300000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0474
+ max number of neighbors is:          10
+ time=   109627.400000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0475
+ max number of neighbors is:          10
+ time=   110027.500000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0476
+ max number of neighbors is:          10
+ time=   110427.600000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0477
+ max number of neighbors is:          10
+ time=   110827.700000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0478
+ max number of neighbors is:          10
+ time=   111227.800000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0479
+ max number of neighbors is:          10
+ time=   111627.900000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0480
+ max number of neighbors is:          10
+ time=   112028.000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0481
+ max number of neighbors is:          10
+ time=   112428.100000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0482
+ max number of neighbors is:          10
+ time=   112828.200000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0483
+ max number of neighbors is:          10
+ time=   113228.300000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0484
+ max number of neighbors is:          10
+ time=   113628.400000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0485
+ max number of neighbors is:          10
+ time=   114028.500000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0486
+ max number of neighbors is:          10
+ time=   114428.600000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0487
+ max number of neighbors is:          10
+ time=   114828.700000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0488
+ max number of neighbors is:          10
+ time=   115228.800000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0489
+ max number of neighbors is:          10
+ time=   115628.900000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0490
+ max number of neighbors is:          10
+ time=   116029.000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0491
+ max number of neighbors is:          10
+ time=   116429.100000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0492
+ max number of neighbors is:          10
+ time=   116829.200000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0493
+ max number of neighbors is:          10
+ time=   117229.300000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0494
+ max number of neighbors is:          10
+ time=   117629.400000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0495
+ max number of neighbors is:          10
+ time=   118029.500000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0496
+ max number of neighbors is:          10
+ time=   118429.600000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0497
+ max number of neighbors is:          10
+ time=   118829.700000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0498
+ max number of neighbors is:          10
+ time=   119229.800000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0499
+ max number of neighbors is:          10
+ time=   119629.900000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0500
+ max number of neighbors is:          10
+ time=   120030.000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0501
+ max number of neighbors is:          10
+ time=   120430.100000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0502
+ max number of neighbors is:          10
+ time=   120830.200000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0503
+ max number of neighbors is:          10
+ time=   121230.300000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0504
+ max number of neighbors is:          10
+ time=   121630.400000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0505
+ max number of neighbors is:          10
+ time=   122030.500000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0506
+ max number of neighbors is:          10
+ time=   122430.600000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0507
+ max number of neighbors is:          10
+ time=   122830.700000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0508
+ max number of neighbors is:          10
+ time=   123230.800000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0509
+ max number of neighbors is:          10
+ time=   123630.900000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0510
+ max number of neighbors is:          10
+ time=   124031.000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0511
+ max number of neighbors is:          10
+ time=   124431.100000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0512
+ max number of neighbors is:          10
+ time=   124831.200000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0513
+ max number of neighbors is:          10
+ time=   125231.300000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0514
+ max number of neighbors is:          10
+ time=   125631.400000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0515
+ max number of neighbors is:          10
+ time=   126031.500000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0516
+ max number of neighbors is:          10
+ time=   126431.600000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0517
+ max number of neighbors is:          10
+ time=   126831.700000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0518
+ max number of neighbors is:          10
+ time=   127231.800000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0519
+ max number of neighbors is:          10
+ time=   127631.900000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0520
+ max number of neighbors is:          10
+ time=   128032.000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0521
+ max number of neighbors is:          10
+ time=   128432.100000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0522
+ max number of neighbors is:          10
+ time=   128832.200000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0523
+ max number of neighbors is:          10
+ time=   129232.300000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0524
+ max number of neighbors is:          10
+ time=   129632.400000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0525
+ max number of neighbors is:          10
+ time=   130032.500000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0526
+ max number of neighbors is:          10
+ time=   130432.600000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0527
+ max number of neighbors is:          10
+ time=   130832.700000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0528
+ max number of neighbors is:          10
+ time=   131232.800000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0529
+ max number of neighbors is:          10
+ time=   131632.900000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0530
+ max number of neighbors is:          10
+ time=   132033.000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0531
+ max number of neighbors is:          10
+ time=   132433.100000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0532
+ max number of neighbors is:          10
+ time=   132833.200000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0533
+ max number of neighbors is:          10
+ time=   133233.300000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0534
+ max number of neighbors is:          10
+ time=   133633.400000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0535
+ max number of neighbors is:          10
+ time=   134033.500000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0536
+ max number of neighbors is:          10
+ time=   134433.600000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0537
+ max number of neighbors is:          10
+ time=   134833.700000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0538
+ max number of neighbors is:          10
+ time=   135233.800000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0539
+ max number of neighbors is:          10
+ time=   135633.900000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0540
+ max number of neighbors is:          10
+ time=   136034.000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0541
+ max number of neighbors is:          10
+ time=   136434.100000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0542
+ max number of neighbors is:          10
+ time=   136834.200000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0543
+ max number of neighbors is:          10
+ time=   137234.300000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0544
+ max number of neighbors is:          10
+ time=   137634.400000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0545
+ max number of neighbors is:          10
+ time=   138034.500000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0546
+ max number of neighbors is:          10
+ time=   138434.600000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0547
+ max number of neighbors is:          10
+ time=   138834.700000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0548
+ max number of neighbors is:          10
+ time=   139234.800000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0549
+ max number of neighbors is:          10
+ time=   139634.900000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0550
+ max number of neighbors is:          10
+ time=   140035.000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0551
+ max number of neighbors is:          10
+ time=   140435.100000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0552
+ max number of neighbors is:          10
+ time=   140835.200000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0553
+ max number of neighbors is:          10
+ time=   141235.300000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0554
+ max number of neighbors is:          10
+ time=   141635.400000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0555
+ max number of neighbors is:          10
+ time=   142035.500000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0556
+ max number of neighbors is:          10
+ time=   142435.600000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0557
+ max number of neighbors is:          10
+ time=   142835.700000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0558
+ max number of neighbors is:          10
+ time=   143235.800000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0559
+ max number of neighbors is:          10
+ time=   143635.900000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0560
+ max number of neighbors is:          10
+ time=   144036.000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0561
+ max number of neighbors is:          10
+ time=   144436.100000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0562
+ max number of neighbors is:          10
+ time=   144836.200000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0563
+ max number of neighbors is:          10
+ time=   145236.300000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0564
+ max number of neighbors is:          10
+ time=   145636.400000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0565
+ max number of neighbors is:          10
+ time=   146036.500000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0566
+ max number of neighbors is:          10
+ time=   146436.600000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0567
+ max number of neighbors is:          10
+ time=   146836.700000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0568
+ max number of neighbors is:          10
+ time=   147236.800000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0569
+ max number of neighbors is:          10
+ time=   147636.900000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0570
+ max number of neighbors is:          10
+ time=   148037.000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0571
+ max number of neighbors is:          10
+ time=   148437.100000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0572
+ max number of neighbors is:          10
+ time=   148837.200000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0573
+ max number of neighbors is:          10
+ time=   149237.300000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0574
+ max number of neighbors is:          10
+ time=   149637.400000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0575
+ max number of neighbors is:          10
+ time=   150037.500000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0576
+ max number of neighbors is:          10
+ time=   150437.600000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0577
+ max number of neighbors is:          10
+ time=   150837.700000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0578
+ max number of neighbors is:          10
+ time=   151237.800000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0579
+ max number of neighbors is:          10
+ time=   151637.900000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0580
+ max number of neighbors is:          10
+ time=   152038.000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0581
+ max number of neighbors is:          10
+ time=   152438.100000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0582
+ max number of neighbors is:          10
+ time=   152838.200000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0583
+ max number of neighbors is:          10
+ 
+ DAC in CASCADE mode
+ hard code change precipitation
+ Timestepping parameters:
+ delta t =   100.000000000000     
+ endtime =    80000000.0000000     
+ frequency of output =        2001
+      800000  timesteps with          400  outputs
+ 
+ Fluvial erosion parameters: 
+ n =            1
+ m =   0.500000000000000     
+ Hacks law h =    2.00000000000000     
+ Hacks Law ka =   0.666666666666667     
+ K =   1.000000000000000E-006
+ Precip =    1.00000000000000     
+ 
+ Channel head erosion parameters: 
+ Xc =    1600.00000000000     
+ tan theta =   0.383900000000000     
+ Diffusivity =   0.300000000000000     
+ Min erosion rate for diffusional channel head =   1.000000000000000E-005
+ 
+ Uplift Parameters: 
+ Interior Uplift rate =   5.000000000000000E-004
+ Boundary Uplift rate =   5.000000000000000E-004
+ 
+ Adding and Removing Node parameters: 
+ Maximum allowable channel length =    2250.00000000000     
+ Minimum allowable channel head area =    1720000.00000000     
+ Max Divide length =    3000.00000000000     
+ 
+ 
+ 
+ max slope of channel:    20.9434904716503     
+ slope of channel head:    21.0018001730732     
+ max diffusive slope of channel head:    53.1301129719666     
+ Channel Head Area =    1.70666666666667     
+ Remesh minimum area used =    1.72000000000000     
+ going to reinit_geometry F
+  
+ Grid parameters: 
+ nx =           60
+ ny =           30
+ xl =    120000.000000000     
+ yl =    60000.0000000000     
+ zl =    1.00000000000000     
+  
+ time=  0.000000000000000E+000 kyrs
+ num of divides is            0  num of triangles is         3422
+ writing binary file RESTART/GeoFile0000
+ time=   200.100000000000      kyrs
+ num of divides is            0  num of triangles is         5712
+ writing binary file RESTART/GeoFile0001
+ max number of neighbors is:          11
+ time=   400.200000000000      kyrs
+ num of divides is            0  num of triangles is         5958
+ writing binary file RESTART/GeoFile0002
+ max number of neighbors is:          11
+ time=   600.300000000000      kyrs
+ num of divides is            0  num of triangles is         6126
+ writing binary file RESTART/GeoFile0003
+ max number of neighbors is:          11
+ time=   800.400000000000      kyrs
+ num of divides is            0  num of triangles is         6268
+ writing binary file RESTART/GeoFile0004
+ max number of neighbors is:          10
+ time=   153238.300000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0584
+ max number of neighbors is:          10
+ time=   1000.50000000000      kyrs
+ num of divides is            0  num of triangles is         6384
+ writing binary file RESTART/GeoFile0005
+ max number of neighbors is:          10
+ time=   1200.60000000000      kyrs
+ num of divides is            0  num of triangles is         6514
+ writing binary file RESTART/GeoFile0006
+ max number of neighbors is:          10
+ time=   1400.70000000000      kyrs
+ num of divides is            0  num of triangles is         6598
+ writing binary file RESTART/GeoFile0007
+ max number of neighbors is:           9
+ time=   1600.80000000000      kyrs
+ num of divides is            0  num of triangles is         6658
+ writing binary file RESTART/GeoFile0008
+ max number of neighbors is:           9
+ time=   1800.90000000000      kyrs
+ num of divides is            0  num of triangles is         6698
+ writing binary file RESTART/GeoFile0009
+ max number of neighbors is:          10
+ time=   2001.00000000000      kyrs
+ num of divides is            0  num of triangles is         6720
+ writing binary file RESTART/GeoFile0010
+ max number of neighbors is:          10
+ time=   2201.10000000000      kyrs
+ num of divides is            0  num of triangles is         6734
+ writing binary file RESTART/GeoFile0011
+ max number of neighbors is:          10
+ time=   2401.20000000000      kyrs
+ num of divides is            0  num of triangles is         6738
+ writing binary file RESTART/GeoFile0012
+ max number of neighbors is:          10
+ time=   2601.30000000000      kyrs
+ num of divides is            0  num of triangles is         6754
+ writing binary file RESTART/GeoFile0013
+ max number of neighbors is:          10
+ time=   2801.40000000000      kyrs
+ num of divides is            0  num of triangles is         6758
+ writing binary file RESTART/GeoFile0014
+ max number of neighbors is:          10
+ time=   153638.400000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0585
+ max number of neighbors is:          10
+ time=   3001.50000000000      kyrs
+ num of divides is            0  num of triangles is         6758
+ writing binary file RESTART/GeoFile0015
+ max number of neighbors is:          10
+ time=   3201.60000000000      kyrs
+ num of divides is            0  num of triangles is         6760
+ writing binary file RESTART/GeoFile0016
+ max number of neighbors is:          10
+ time=   3401.70000000000      kyrs
+ num of divides is            0  num of triangles is         6760
+ writing binary file RESTART/GeoFile0017
+ max number of neighbors is:          10
+ time=   3601.80000000000      kyrs
+ num of divides is            0  num of triangles is         6760
+ writing binary file RESTART/GeoFile0018
+ max number of neighbors is:          10
+ time=   3801.90000000000      kyrs
+ num of divides is            0  num of triangles is         6760
+ writing binary file RESTART/GeoFile0019
+ max number of neighbors is:          10
+ time=   4002.00000000000      kyrs
+ num of divides is            0  num of triangles is         6760
+ writing binary file RESTART/GeoFile0020
+ max number of neighbors is:          10
+ time=   4202.10000000000      kyrs
+ num of divides is            0  num of triangles is         6762
+ writing binary file RESTART/GeoFile0021
+ max number of neighbors is:          10
+ time=   4402.20000000000      kyrs
+ num of divides is            0  num of triangles is         6762
+ writing binary file RESTART/GeoFile0022
+ max number of neighbors is:          10
+ time=   4602.30000000000      kyrs
+ num of divides is            0  num of triangles is         6764
+ writing binary file RESTART/GeoFile0023
+ max number of neighbors is:          10
+ time=   154038.500000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0586
+ max number of neighbors is:          10
+ time=   4802.40000000000      kyrs
+ num of divides is            0  num of triangles is         6764
+ writing binary file RESTART/GeoFile0024
+ max number of neighbors is:          10
+ time=   5002.50000000000      kyrs
+ num of divides is            0  num of triangles is         6764
+ writing binary file RESTART/GeoFile0025
+ max number of neighbors is:          10
+ time=   5202.60000000000      kyrs
+ num of divides is            0  num of triangles is         6764
+ writing binary file RESTART/GeoFile0026
+ max number of neighbors is:          10
+ time=   5402.70000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0027
+ max number of neighbors is:          10
+ time=   5602.80000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0028
+ max number of neighbors is:          10
+ time=   5802.90000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0029
+ max number of neighbors is:          10
+ time=   6003.00000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0030
+ max number of neighbors is:          10
+ time=   6203.10000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0031
+ max number of neighbors is:          10
+ time=   6403.20000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0032
+ max number of neighbors is:          10
+ time=   6603.30000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0033
+ max number of neighbors is:          10
+ time=   154438.600000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0587
+ max number of neighbors is:          10
+ time=   6803.40000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0034
+ max number of neighbors is:          10
+ time=   7003.50000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0035
+ max number of neighbors is:          10
+ time=   7203.60000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0036
+ max number of neighbors is:          10
+ time=   7403.70000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0037
+ max number of neighbors is:          10
+ time=   7603.80000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0038
+ max number of neighbors is:          10
+ time=   7803.90000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0039
+ max number of neighbors is:          10
+ time=   8004.00000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0040
+ max number of neighbors is:          10
+ time=   8204.10000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0041
+ max number of neighbors is:          10
+ time=   8404.20000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0042
+ max number of neighbors is:          10
+ time=   154838.700000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0588
+ max number of neighbors is:          10
+ time=   8604.30000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0043
+ max number of neighbors is:          10
+ time=   8804.40000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0044
+ max number of neighbors is:          10
+ time=   9004.50000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0045
+ max number of neighbors is:          10
+ time=   9204.60000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0046
+ max number of neighbors is:          10
+ time=   9404.70000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0047
+ max number of neighbors is:          10
+ time=   9604.80000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0048
+ max number of neighbors is:          10
+ time=   9804.90000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0049
+ max number of neighbors is:          10
+ time=   10005.0000000000      kyrs
+ num of divides is            0  num of triangles is         6766
+ writing binary file RESTART/GeoFile0050
+ max number of neighbors is:          10
+ time=   10205.1000000000      kyrs
+ num of divides is            0  num of triangles is         6768
+ writing binary file RESTART/GeoFile0051
+ max number of neighbors is:          10
+ time=   10405.2000000000      kyrs
+ num of divides is            0  num of triangles is         6768
+ writing binary file RESTART/GeoFile0052
+ max number of neighbors is:          10
+ time=   155238.800000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0589
+ max number of neighbors is:          10
+ time=   10605.3000000000      kyrs
+ num of divides is            0  num of triangles is         6768
+ writing binary file RESTART/GeoFile0053
+ max number of neighbors is:          10
+ time=   10805.4000000000      kyrs
+ num of divides is            0  num of triangles is         6768
+ writing binary file RESTART/GeoFile0054
+ max number of neighbors is:          10
+ time=   11005.5000000000      kyrs
+ num of divides is            0  num of triangles is         6768
+ writing binary file RESTART/GeoFile0055
+ max number of neighbors is:          10
+ time=   11205.6000000000      kyrs
+ num of divides is            0  num of triangles is         6768
+ writing binary file RESTART/GeoFile0056
+ max number of neighbors is:          10
+ time=   11405.7000000000      kyrs
+ num of divides is            0  num of triangles is         6768
+ writing binary file RESTART/GeoFile0057
+ max number of neighbors is:          10
+ time=   11605.8000000000      kyrs
+ num of divides is            0  num of triangles is         6768
+ writing binary file RESTART/GeoFile0058
+ max number of neighbors is:          10
+ time=   11805.9000000000      kyrs
+ num of divides is            0  num of triangles is         6768
+ writing binary file RESTART/GeoFile0059
+ max number of neighbors is:          10
+ time=   12006.0000000000      kyrs
+ num of divides is            0  num of triangles is         6768
+ writing binary file RESTART/GeoFile0060
+ max number of neighbors is:          10
+ time=   12206.1000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0061
+ max number of neighbors is:          10
+ time=   155638.900000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0590
+ max number of neighbors is:          10
+ time=   12406.2000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0062
+ max number of neighbors is:          10
+ time=   12606.3000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0063
+ max number of neighbors is:          10
+ time=   12806.4000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0064
+ max number of neighbors is:          10
+ time=   13006.5000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0065
+ max number of neighbors is:          10
+ time=   13206.6000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0066
+ max number of neighbors is:          10
+ time=   13406.7000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0067
+ max number of neighbors is:          10
+ time=   13606.8000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0068
+ max number of neighbors is:          10
+ time=   13806.9000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0069
+ max number of neighbors is:          10
+ time=   14007.0000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0070
+ max number of neighbors is:          10
+ time=   14207.1000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0071
+ max number of neighbors is:          10
+ time=   156039.000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0591
+ max number of neighbors is:          10
+ time=   14407.2000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0072
+ max number of neighbors is:          10
+ time=   14607.3000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0073
+ max number of neighbors is:          10
+ time=   14807.4000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0074
+ max number of neighbors is:          10
+ time=   15007.5000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0075
+ max number of neighbors is:          10
+ time=   15207.6000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0076
+ max number of neighbors is:          10
+ time=   15407.7000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0077
+ max number of neighbors is:          10
+ time=   15607.8000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0078
+ max number of neighbors is:          10
+ time=   15807.9000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0079
+ max number of neighbors is:          10
+ time=   16008.0000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0080
+ max number of neighbors is:          10
+ time=   156439.100000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0592
+ max number of neighbors is:          10
+ time=   16208.1000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0081
+ max number of neighbors is:          10
+ time=   16408.2000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0082
+ max number of neighbors is:          10
+ time=   16608.3000000000      kyrs
+ num of divides is            0  num of triangles is         6770
+ writing binary file RESTART/GeoFile0083
+ max number of neighbors is:          10
+ time=   16808.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0084
+ max number of neighbors is:          10
+ time=   17008.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0085
+ max number of neighbors is:          10
+ time=   17208.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0086
+ max number of neighbors is:          10
+ time=   17408.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0087
+ max number of neighbors is:          10
+ time=   17608.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0088
+ max number of neighbors is:          10
+ time=   17808.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0089
+ max number of neighbors is:          10
+ time=   18009.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0090
+ max number of neighbors is:          10
+ time=   156839.200000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0593
+ max number of neighbors is:          10
+ time=   18209.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0091
+ max number of neighbors is:          10
+ time=   18409.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0092
+ max number of neighbors is:          10
+ time=   18609.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0093
+ max number of neighbors is:          10
+ time=   18809.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0094
+ max number of neighbors is:          10
+ time=   19009.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0095
+ max number of neighbors is:          10
+ time=   19209.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0096
+ max number of neighbors is:          10
+ time=   19409.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0097
+ max number of neighbors is:          10
+ time=   19609.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0098
+ max number of neighbors is:          10
+ time=   19809.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0099
+ max number of neighbors is:          10
+ time=   157239.300000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0594
+ max number of neighbors is:          10
+ time=   20010.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0100
+ max number of neighbors is:          10
+ time=   20210.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0101
+ max number of neighbors is:          10
+ time=   20410.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0102
+ max number of neighbors is:          10
+ time=   20610.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0103
+ max number of neighbors is:          10
+ time=   20810.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0104
+ max number of neighbors is:          10
+ time=   21010.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0105
+ max number of neighbors is:          10
+ time=   21210.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0106
+ max number of neighbors is:          10
+ time=   21410.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0107
+ max number of neighbors is:          10
+ time=   21610.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0108
+ max number of neighbors is:          10
+ time=   21810.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0109
+ max number of neighbors is:          10
+ time=   157639.400000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0595
+ max number of neighbors is:          10
+ time=   22011.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0110
+ max number of neighbors is:          10
+ time=   22211.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0111
+ max number of neighbors is:          10
+ time=   22411.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0112
+ max number of neighbors is:          10
+ time=   22611.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0113
+ max number of neighbors is:          10
+ time=   22811.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0114
+ max number of neighbors is:          10
+ time=   23011.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0115
+ max number of neighbors is:          10
+ time=   23211.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0116
+ max number of neighbors is:          10
+ time=   23411.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0117
+ max number of neighbors is:          10
+ time=   23611.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0118
+ max number of neighbors is:          10
+ time=   158039.500000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0596
+ max number of neighbors is:          10
+ time=   23811.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0119
+ max number of neighbors is:          10
+ time=   24012.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0120
+ max number of neighbors is:          10
+ time=   24212.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0121
+ max number of neighbors is:          10
+ time=   24412.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0122
+ max number of neighbors is:          10
+ time=   24612.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0123
+ max number of neighbors is:          10
+ time=   24812.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0124
+ max number of neighbors is:          10
+ time=   25012.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0125
+ max number of neighbors is:          10
+ time=   25212.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0126
+ max number of neighbors is:          10
+ time=   25412.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0127
+ max number of neighbors is:          10
+ time=   25612.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0128
+ max number of neighbors is:          10
+ time=   158439.600000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0597
+ max number of neighbors is:          10
+ time=   25812.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0129
+ max number of neighbors is:          10
+ time=   26013.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0130
+ max number of neighbors is:          10
+ time=   26213.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0131
+ max number of neighbors is:          10
+ time=   26413.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0132
+ max number of neighbors is:          10
+ time=   26613.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0133
+ max number of neighbors is:          10
+ time=   26813.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0134
+ max number of neighbors is:          10
+ time=   27013.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0135
+ max number of neighbors is:          10
+ time=   27213.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0136
+ max number of neighbors is:          10
+ time=   27413.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0137
+ max number of neighbors is:          10
+ time=   158839.700000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0598
+ max number of neighbors is:          10
+ time=   27613.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0138
+ max number of neighbors is:          10
+ time=   27813.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0139
+ max number of neighbors is:          10
+ time=   28014.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0140
+ max number of neighbors is:          10
+ time=   28214.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0141
+ max number of neighbors is:          10
+ time=   28414.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0142
+ max number of neighbors is:          10
+ time=   28614.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0143
+ max number of neighbors is:          10
+ time=   28814.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0144
+ max number of neighbors is:          10
+ time=   29014.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0145
+ max number of neighbors is:          10
+ time=   29214.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0146
+ max number of neighbors is:          10
+ time=   159239.800000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0599
+ max number of neighbors is:          10
+ time=   29414.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0147
+ max number of neighbors is:          10
+ time=   29614.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0148
+ max number of neighbors is:          10
+ time=   29814.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0149
+ max number of neighbors is:          10
+ time=   30015.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0150
+ max number of neighbors is:          10
+ time=   30215.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0151
+ max number of neighbors is:          10
+ time=   30415.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0152
+ max number of neighbors is:          10
+ time=   30615.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0153
+ max number of neighbors is:          10
+ time=   30815.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0154
+ max number of neighbors is:          10
+ time=   31015.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0155
+ max number of neighbors is:          10
+ time=   159639.900000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0600
+ max number of neighbors is:          10
+ time=   31215.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0156
+ max number of neighbors is:          10
+ time=   31415.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0157
+ max number of neighbors is:          10
+ time=   31615.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0158
+ max number of neighbors is:          10
+ time=   31815.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0159
+ max number of neighbors is:          10
+ time=   32016.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0160
+ max number of neighbors is:          10
+ time=   32216.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0161
+ max number of neighbors is:          10
+ time=   32416.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0162
+ max number of neighbors is:          10
+ time=   32616.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0163
+ max number of neighbors is:          10
+ time=   160000.000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0601
+     1600000 Steps
+ -----------------------------------------------
+ TIMER INFORMATION
+ -----------------------------------------------
+initialize_parameters            0.0002840001sec
+reinit_geometry                  0.0205180012sec
+create_network               48179.4609375000sec
+find_order                     333.2739868164sec
+find_strahler                    0.0684022829sec
+output_geometry                 48.8352890015sec
+uplift_and_advect              836.1729736328sec
+add_remove_nodes               604.2172851562sec
+calculate_delaunay            3698.8732910156sec
+find_precipitation             294.6500854492sec
+find_surface                  7884.6020507812sec
+find_catchment                  17.3989925385sec
+find_discharge                2273.4643554688sec
+erode                          283.6536865234sec
+find_hack                        0.0234375000sec
+ -----------------------------------------------
+ Total time:   64541.10    
+ time=   32816.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0164
+ max number of neighbors is:          10
+ time=   33016.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0165
+ max number of neighbors is:          10
+ time=   33216.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0166
+ max number of neighbors is:          10
+ time=   33416.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0167
+ max number of neighbors is:          10
+ time=   33616.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0168
+ max number of neighbors is:          10
+ time=   33816.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0169
+ max number of neighbors is:          10
+ time=   34017.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0170
+ max number of neighbors is:          10
+ time=   34217.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0171
+ max number of neighbors is:          10
+ time=   34417.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0172
+ max number of neighbors is:          10
+ time=   34617.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0173
+ max number of neighbors is:          10
+ time=   34817.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0174
+ max number of neighbors is:          10
+ time=   35017.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0175
+ max number of neighbors is:          10
+ time=   35217.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0176
+ max number of neighbors is:          10
+ time=   35417.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0177
+ max number of neighbors is:          10
+ time=   35617.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0178
+ max number of neighbors is:          10
+ time=   35817.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0179
+ max number of neighbors is:          10
+ time=   36018.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0180
+ max number of neighbors is:          10
+ time=   36218.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0181
+ max number of neighbors is:          10
+ time=   36418.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0182
+ max number of neighbors is:          10
+ time=   36618.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0183
+ max number of neighbors is:          10
+ time=   36818.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0184
+ max number of neighbors is:          10
+ time=   37018.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0185
+ max number of neighbors is:          10
+ time=   37218.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0186
+ max number of neighbors is:          10
+ time=   37418.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0187
+ max number of neighbors is:          10
+ time=   37618.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0188
+ max number of neighbors is:          10
+ time=   37818.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0189
+ max number of neighbors is:          10
+ time=   38019.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0190
+ max number of neighbors is:          10
+ time=   38219.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0191
+ max number of neighbors is:          10
+ time=   38419.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0192
+ max number of neighbors is:          10
+ time=   38619.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0193
+ max number of neighbors is:          10
+ time=   38819.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0194
+ max number of neighbors is:          10
+ time=   39019.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0195
+ max number of neighbors is:          10
+ time=   39219.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0196
+ max number of neighbors is:          10
+ time=   39419.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0197
+ max number of neighbors is:          10
+ time=   39619.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0198
+ max number of neighbors is:          10
+ time=   39819.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0199
+ max number of neighbors is:          10
+ time=   40020.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0200
+ max number of neighbors is:          10
+ time=   40220.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0201
+ max number of neighbors is:          10
+ time=   40420.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0202
+ max number of neighbors is:          10
+ time=   40620.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0203
+ max number of neighbors is:          10
+ time=   40820.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0204
+ max number of neighbors is:          10
+ time=   41020.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0205
+ max number of neighbors is:          10
+ time=   41220.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0206
+ max number of neighbors is:          10
+ time=   41420.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0207
+ max number of neighbors is:          10
+ time=   41620.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0208
+ max number of neighbors is:          10
+ time=   41820.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0209
+ max number of neighbors is:          10
+ time=   42021.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0210
+ max number of neighbors is:          10
+ time=   42221.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0211
+ max number of neighbors is:          10
+ time=   42421.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0212
+ max number of neighbors is:          10
+ time=   42621.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0213
+ max number of neighbors is:          10
+ time=   42821.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0214
+ max number of neighbors is:          10
+ time=   43021.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0215
+ max number of neighbors is:          10
+ time=   43221.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0216
+ max number of neighbors is:          10
+ time=   43421.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0217
+ max number of neighbors is:          10
+ time=   43621.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0218
+ max number of neighbors is:          10
+ time=   43821.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0219
+ max number of neighbors is:          10
+ time=   44022.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0220
+ max number of neighbors is:          10
+ time=   44222.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0221
+ max number of neighbors is:          10
+ time=   44422.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0222
+ max number of neighbors is:          10
+ time=   44622.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0223
+ max number of neighbors is:          10
+ time=   44822.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0224
+ max number of neighbors is:          10
+ time=   45022.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0225
+ max number of neighbors is:          10
+ time=   45222.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0226
+ max number of neighbors is:          10
+ time=   45422.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0227
+ max number of neighbors is:          10
+ time=   45622.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0228
+ max number of neighbors is:          10
+ time=   45822.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0229
+ max number of neighbors is:          10
+ time=   46023.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0230
+ max number of neighbors is:          10
+ time=   46223.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0231
+ max number of neighbors is:          10
+ time=   46423.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0232
+ max number of neighbors is:          10
+ time=   46623.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0233
+ max number of neighbors is:          10
+ time=   46823.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0234
+ max number of neighbors is:          10
+ time=   47023.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0235
+ max number of neighbors is:          10
+ time=   47223.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0236
+ max number of neighbors is:          10
+ time=   47423.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0237
+ max number of neighbors is:          10
+ time=   47623.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0238
+ max number of neighbors is:          10
+ time=   47823.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0239
+ max number of neighbors is:          10
+ time=   48024.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0240
+ max number of neighbors is:          10
+ time=   48224.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0241
+ max number of neighbors is:          10
+ time=   48424.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0242
+ max number of neighbors is:          10
+ time=   48624.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0243
+ max number of neighbors is:          10
+ time=   48824.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0244
+ max number of neighbors is:          10
+ time=   49024.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0245
+ max number of neighbors is:          10
+ time=   49224.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0246
+ max number of neighbors is:          10
+ time=   49424.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0247
+ max number of neighbors is:          10
+ time=   49624.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0248
+ max number of neighbors is:          10
+ time=   49824.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0249
+ max number of neighbors is:          10
+ time=   50025.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0250
+ max number of neighbors is:          10
+ time=   50225.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0251
+ max number of neighbors is:          10
+ time=   50425.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0252
+ max number of neighbors is:          10
+ time=   50625.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0253
+ max number of neighbors is:          10
+ time=   50825.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0254
+ max number of neighbors is:          10
+ time=   51025.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0255
+ max number of neighbors is:          10
+ time=   51225.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0256
+ max number of neighbors is:          10
+ time=   51425.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0257
+ max number of neighbors is:          10
+ time=   51625.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0258
+ max number of neighbors is:          10
+ time=   51825.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0259
+ max number of neighbors is:          10
+ time=   52026.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0260
+ max number of neighbors is:          10
+ time=   52226.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0261
+ max number of neighbors is:          10
+ time=   52426.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0262
+ max number of neighbors is:          10
+ time=   52626.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0263
+ max number of neighbors is:          10
+ time=   52826.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0264
+ max number of neighbors is:          10
+ time=   53026.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0265
+ max number of neighbors is:          10
+ time=   53226.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0266
+ max number of neighbors is:          10
+ time=   53426.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0267
+ max number of neighbors is:          10
+ time=   53626.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0268
+ max number of neighbors is:          10
+ time=   53826.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0269
+ max number of neighbors is:          10
+ time=   54027.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0270
+ max number of neighbors is:          10
+ time=   54227.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0271
+ max number of neighbors is:          10
+ time=   54427.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0272
+ max number of neighbors is:          10
+ time=   54627.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0273
+ max number of neighbors is:          10
+ time=   54827.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0274
+ max number of neighbors is:          10
+ time=   55027.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0275
+ max number of neighbors is:          10
+ time=   55227.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0276
+ max number of neighbors is:          10
+ time=   55427.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0277
+ max number of neighbors is:          10
+ time=   55627.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0278
+ max number of neighbors is:          10
+ time=   55827.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0279
+ max number of neighbors is:          10
+ time=   56028.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0280
+ max number of neighbors is:          10
+ time=   56228.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0281
+ max number of neighbors is:          10
+ time=   56428.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0282
+ max number of neighbors is:          10
+ time=   56628.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0283
+ max number of neighbors is:          10
+ time=   56828.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0284
+ max number of neighbors is:          10
+ time=   57028.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0285
+ max number of neighbors is:          10
+ time=   57228.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0286
+ max number of neighbors is:          10
+ time=   57428.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0287
+ max number of neighbors is:          10
+ time=   57628.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0288
+ max number of neighbors is:          10
+ time=   57828.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0289
+ max number of neighbors is:          10
+ time=   58029.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0290
+ max number of neighbors is:          10
+ time=   58229.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0291
+ max number of neighbors is:          10
+ time=   58429.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0292
+ max number of neighbors is:          10
+ time=   58629.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0293
+ max number of neighbors is:          10
+ time=   58829.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0294
+ max number of neighbors is:          10
+ time=   59029.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0295
+ max number of neighbors is:          10
+ time=   59229.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0296
+ max number of neighbors is:          10
+ time=   59429.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0297
+ max number of neighbors is:          10
+ time=   59629.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0298
+ max number of neighbors is:          10
+ time=   59829.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0299
+ max number of neighbors is:          10
+ time=   60030.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0300
+ max number of neighbors is:          10
+ time=   60230.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0301
+ max number of neighbors is:          10
+ time=   60430.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0302
+ max number of neighbors is:          10
+ time=   60630.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0303
+ max number of neighbors is:          10
+ time=   60830.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0304
+ max number of neighbors is:          10
+ time=   61030.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0305
+ max number of neighbors is:          10
+ time=   61230.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0306
+ max number of neighbors is:          10
+ time=   61430.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0307
+ max number of neighbors is:          10
+ time=   61630.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0308
+ max number of neighbors is:          10
+ time=   61830.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0309
+ max number of neighbors is:          10
+ time=   62031.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0310
+ max number of neighbors is:          10
+ time=   62231.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0311
+ max number of neighbors is:          10
+ time=   62431.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0312
+ max number of neighbors is:          10
+ time=   62631.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0313
+ max number of neighbors is:          10
+ time=   62831.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0314
+ max number of neighbors is:          10
+ time=   63031.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0315
+ max number of neighbors is:          10
+ time=   63231.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0316
+ max number of neighbors is:          10
+ time=   63431.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0317
+ max number of neighbors is:          10
+ time=   63631.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0318
+ max number of neighbors is:          10
+ time=   63831.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0319
+ max number of neighbors is:          10
+ time=   64032.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0320
+ max number of neighbors is:          10
+ time=   64232.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0321
+ max number of neighbors is:          10
+ time=   64432.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0322
+ max number of neighbors is:          10
+ time=   64632.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0323
+ max number of neighbors is:          10
+ time=   64832.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0324
+ max number of neighbors is:          10
+ time=   65032.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0325
+ max number of neighbors is:          10
+ time=   65232.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0326
+ max number of neighbors is:          10
+ time=   65432.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0327
+ max number of neighbors is:          10
+ time=   65632.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0328
+ max number of neighbors is:          10
+ time=   65832.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0329
+ max number of neighbors is:          10
+ time=   66033.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0330
+ max number of neighbors is:          10
+ time=   66233.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0331
+ max number of neighbors is:          10
+ time=   66433.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0332
+ max number of neighbors is:          10
+ time=   66633.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0333
+ max number of neighbors is:          10
+ time=   66833.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0334
+ max number of neighbors is:          10
+ time=   67033.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0335
+ max number of neighbors is:          10
+ time=   67233.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0336
+ max number of neighbors is:          10
+ time=   67433.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0337
+ max number of neighbors is:          10
+ time=   67633.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0338
+ max number of neighbors is:          10
+ time=   67833.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0339
+ max number of neighbors is:          10
+ time=   68034.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0340
+ max number of neighbors is:          10
+ time=   68234.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0341
+ max number of neighbors is:          10
+ time=   68434.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0342
+ max number of neighbors is:          10
+ time=   68634.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0343
+ max number of neighbors is:          10
+ time=   68834.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0344
+ max number of neighbors is:          10
+ time=   69034.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0345
+ max number of neighbors is:          10
+ time=   69234.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0346
+ max number of neighbors is:          10
+ time=   69434.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0347
+ max number of neighbors is:          10
+ time=   69634.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0348
+ max number of neighbors is:          10
+ time=   69834.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0349
+ max number of neighbors is:          10
+ time=   70035.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0350
+ max number of neighbors is:          10
+ time=   70235.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0351
+ max number of neighbors is:          10
+ time=   70435.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0352
+ max number of neighbors is:          10
+ time=   70635.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0353
+ max number of neighbors is:          10
+ time=   70835.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0354
+ max number of neighbors is:          10
+ time=   71035.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0355
+ max number of neighbors is:          10
+ time=   71235.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0356
+ max number of neighbors is:          10
+ time=   71435.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0357
+ max number of neighbors is:          10
+ time=   71635.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0358
+ max number of neighbors is:          10
+ time=   71835.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0359
+ max number of neighbors is:          10
+ time=   72036.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0360
+ max number of neighbors is:          10
+ time=   72236.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0361
+ max number of neighbors is:          10
+ time=   72436.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0362
+ max number of neighbors is:          10
+ time=   72636.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0363
+ max number of neighbors is:          10
+ time=   72836.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0364
+ max number of neighbors is:          10
+ time=   73036.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0365
+ max number of neighbors is:          10
+ time=   73236.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0366
+ max number of neighbors is:          10
+ time=   73436.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0367
+ max number of neighbors is:          10
+ time=   73636.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0368
+ max number of neighbors is:          10
+ time=   73836.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0369
+ max number of neighbors is:          10
+ time=   74037.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0370
+ max number of neighbors is:          10
+ time=   74237.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0371
+ max number of neighbors is:          10
+ time=   74437.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0372
+ max number of neighbors is:          10
+ time=   74637.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0373
+ max number of neighbors is:          10
+ time=   74837.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0374
+ max number of neighbors is:          10
+ time=   75037.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0375
+ max number of neighbors is:          10
+ time=   75237.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0376
+ max number of neighbors is:          10
+ time=   75437.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0377
+ max number of neighbors is:          10
+ time=   75637.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0378
+ max number of neighbors is:          10
+ time=   75837.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0379
+ max number of neighbors is:          10
+ time=   76038.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0380
+ max number of neighbors is:          10
+ time=   76238.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0381
+ max number of neighbors is:          10
+ time=   76438.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0382
+ max number of neighbors is:          10
+ time=   76638.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0383
+ max number of neighbors is:          10
+ time=   76838.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0384
+ max number of neighbors is:          10
+ time=   77038.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0385
+ max number of neighbors is:          10
+ time=   77238.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0386
+ max number of neighbors is:          10
+ time=   77438.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0387
+ max number of neighbors is:          10
+ time=   77638.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0388
+ max number of neighbors is:          10
+ time=   77838.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0389
+ max number of neighbors is:          10
+ time=   78039.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0390
+ max number of neighbors is:          10
+ time=   78239.1000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0391
+ max number of neighbors is:          10
+ time=   78439.2000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0392
+ max number of neighbors is:          10
+ time=   78639.3000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0393
+ max number of neighbors is:          10
+ time=   78839.4000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0394
+ max number of neighbors is:          10
+ time=   79039.5000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0395
+ max number of neighbors is:          10
+ time=   79239.6000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0396
+ max number of neighbors is:          10
+ time=   79439.7000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0397
+ max number of neighbors is:          10
+ time=   79639.8000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0398
+ max number of neighbors is:          10
+ time=   79839.9000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0399
+ max number of neighbors is:          10
+ time=   80000.0000000000      kyrs
+ num of divides is            0  num of triangles is         6772
+ writing binary file RESTART/GeoFile0400
+      800000 Steps
+ -----------------------------------------------
+ TIMER INFORMATION
+ -----------------------------------------------
+initialize_parameters            0.0005300003sec
+initialize_geometry              0.0020999997sec
+calculate_delaunay            3551.4663085938sec
+create_network                2088.6926269531sec
+find_precipitation              16.1406898499sec
+find_order                     190.6443481445sec
+find_strahler                    0.0362828076sec
+output_geometry                 95.9142456055sec
+uplift_and_advect               50.2945785522sec
+add_remove_nodes               529.4617309570sec
+find_surface                  6157.0825195312sec
+find_catchment                  17.0563850403sec
+find_discharge                 109.7701263428sec
+erode                          279.7398071289sec
+find_hack                        0.0195312500sec
+ -----------------------------------------------
+ Total time:   13211.35    
